@@ -1,3 +1,0 @@
-#!/bin/sh
-file="zexmlss/src/git_hash.inc"
-echo -e \'`git log --pretty=format:'%H' -n 1`\' > $file
